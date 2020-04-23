@@ -4,7 +4,7 @@ import Nav from "./components/NavBar";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
-
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           {/* <Route path="/admin" component={withAuth(Admin)} /> */}
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
